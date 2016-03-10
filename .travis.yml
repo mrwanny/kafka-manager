@@ -4,6 +4,6 @@ jdk: oraclejdk8
 install: true
 script: "./sbt clean coverage assembly"
 scala:
-  - 2.11.5
+  - 2.11.7
 #after_success:
 #  - sbt coverageReport coveralls
